@@ -39245,7 +39245,7 @@ m=A.MH(!0,B.c_,!1,a,!0,B.z,a,A.apz(),b.f,a,a,a,a,a,2,A.J8(a,new A.fo(4,A.ef(10),
 l=A.bo("Pobrany podatek za granic\u0105:",a,a,a,A.H(a1).p1.w,a,a,a)
 k=A.MH(!0,B.c_,!1,a,!0,B.z,a,A.apz(),b.r,a,a,a,a,a,2,A.J8(a,new A.fo(4,A.ef(10),B.e3),a,a,a,a,a,a,!0,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,"Podaj kwot\u0119 pobranego podatku",a,a,a,a,a,a,a,a,a,!0,a,a,a,a,a,a,a,a,a,a,a,a,b.vG(b.w)),B.W,!0,a,!0,a,!1,a,B.c8,a,a,a,B.hY,a,a,a,1,a,a,!1,"\u2022",a,a,a,a,a,!1,a,a,!1,a,!0,a,B.es,a,a,B.bQ,B.bu,a,a,a,a,a,a,a,!0,B.aK,a,B.fa,a,a,a,a)
 j=A.ef(10)
-i=A.bo("Kwota netto:",a,a,a,A.H(a1).p1.w,a,a,a)
+i=A.bo("Kwota netto w walucie dywidendy przed opodatkowaniem w Polsce:",a,a,a,A.H(a1).p1.w,a,a,a)
 h=B.d.ac(b.gVc(),2)
 g=b.vG(b.w)
 f=A.H(a1).p1.w
@@ -39264,7 +39264,7 @@ d=A.bo("Kurs waluty z dnia: "+h,a,a,a,d,a,a,a)
 h=B.d.ac(b.x,2)
 c=A.H(a1).p1.r
 c=c==null?a:c.SM(B.mt,B.cF)
-return A.aa4(s,new A.bk(B.b7,A.abU(A.eP(A.b([r,B.f6,q,B.f5,p,B.f6,n,B.f5,o,B.f6,m,B.f5,l,B.f6,k,B.f5,j,B.f5,A.hW(a,A.eP(A.b([i,B.yN,d,B.f6,A.bo(h+" PLN",a,a,a,c,a,a,a),B.yN,A.bo("Obliczone na podstawie kursu NBP z dnia poprzedzaj\u0105cego dat\u0119 dywidendy, warto\u015bci mog\u0119 si\u0119 nie zgadza\u0107 je\u015bli dywidenda zosta\u0142a wyp\u0142\u0105cona w poniedzia\u0142ek",a,a,a,A.H(a1).p1.Q,a,a,a)],e),B.bz,B.X,B.a8),B.w,a,new A.cM(B.iK,a,g,f,a,a,B.aj),a,a,a,B.b7,a,a,a),B.OV,A.cG(A.aqC(!1,B.U6,a,a,a,a,a,a,b.gadh(),a,A.xe(a,a,a,a,a,a,a,a,a,a,a,a,B.b7,a,new A.c4(A.ef(15),B.n),a,a,a,a)),a,1/0),new A.dd(B.fm,a,a,new A.bk(B.b7,new A.nR(a),a),a)],e),B.bz,B.X,B.a8),a),a),a)}}
+return A.aa4(s,new A.bk(B.b7,A.abU(A.eP(A.b([r,B.f6,q,B.f5,p,B.f6,n,B.f5,o,B.f6,m,B.f5,l,B.f6,k,B.f5,j,B.f5,A.hW(a,A.eP(A.b([i,B.yN,d,B.f6,A.bo(h+" PLN",a,a,a,c,a,a,a),B.yN,A.bo("Obliczone na podstawie kursu NBP z dnia poprzedzaj\u0105cego dat\u0119 dywidendy, zawsze sprawd\u017a czy podana data kursu walutowego nie jest \u015bwi\u0119tem!",a,a,a,A.H(a1).p1.Q,a,a,a)],e),B.bz,B.X,B.a8),B.w,a,new A.cM(B.iK,a,g,f,a,a,B.aj),a,a,a,B.b7,a,a,a),B.OV,A.cG(A.aqC(!1,B.U6,a,a,a,a,a,a,b.gadh(),a,A.xe(a,a,a,a,a,a,a,a,a,a,a,a,B.b7,a,new A.c4(A.ef(15),B.n),a,a,a,a)),a,1/0),new A.dd(B.fm,a,a,new A.bk(B.b7,new A.nR(a),a),a)],e),B.bz,B.X,B.a8),a),a),a)}}
 A.ahh.prototype={
 $0(){this.a.d=this.b},
 $S:0}
@@ -39406,7 +39406,7 @@ l=A.b([A.MH(!0,B.c_,!1,p,!0,B.z,p,A.apz(),q.d,p,p,p,p,p,2,B.FX,B.W,!0,p,!0,p,!1,
 r=q.x
 if(r!=null)l.push(A.bo(r,p,p,p,B.Td,B.f9,p,p))
 else{r=q.w
-if(r!=null)l.push(A.bo("Stopa zwrotu: "+B.d.ac(r*100,2)+"%",p,p,p,A.H(a).p1.f,B.f9,p,p))}return A.aa4(m,A.eP(A.b([A.hk(A.abU(A.eP(l,B.ci,B.X,B.a8),B.b7),1),new A.dd(B.fm,p,p,new A.bk(B.b7,new A.nR(p),p),p)],s),B.V,B.X,B.a8),p)}}
+if(r!=null)l.push(A.bo("\u015arednio roczna stopa zwrotu: "+B.d.ac(r*100,2)+"%",p,p,p,A.H(a).p1.f,B.f9,p,p))}return A.aa4(m,A.eP(A.b([A.hk(A.abU(A.eP(l,B.ci,B.X,B.a8),B.b7),1),new A.dd(B.fm,p,p,new A.bk(B.b7,new A.nR(p),p),p)],s),B.V,B.X,B.a8),p)}}
 A.ajk.prototype={
 $0(){this.a.f=this.b},
 $S:0}
