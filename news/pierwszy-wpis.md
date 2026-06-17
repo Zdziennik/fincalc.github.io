@@ -1,9 +1,9 @@
 # Pierwszy wpis aktualności
 
-To jest przykładowy wpis aktualności przechowywany jako plik Markdown.
+Cześć,
 
-## Jak dodawać wpisy
+Poza changelogiem planuję publikować tu różne wiadomości na temat projektu.
+Czasami szerzej opisywać zmiany, a czasami co mną kierowało aby dodać daną 
+funkcjonalność, będzie to rodzaj pamiętnika projektu
 
-- Dodaj nowy plik `.md` do katalogu `web/news/` na hostingu.
-- Dopisz go do `web/news/index.json`.
-- Odśwież aplikację, żeby pobrała zaktualizowaną listę.
+Zdziennik
