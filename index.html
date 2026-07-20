@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script>
+    (function () {
+      var host = window.location.hostname;
+      var isLocal = host === 'localhost' || host === '127.0.0.1' || host === '';
+
+      if (isLocal) return;
+
+      var s = document.createElement('script');
+      s.defer = true;
+      s.src = 'https://cloud.umami.is/script.js';
+      s.setAttribute('data-website-id', 'a526e011-892b-4a4f-8cb6-44dbf2522158');
+      document.head.appendChild(s);
+    })();
+  </script>
   <!--
     If you are serving your web app in a path other than the root, change the
     href value below to reflect the base path you are serving from.
